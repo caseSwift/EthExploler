@@ -1,0 +1,50 @@
+api key: d29w2BF_oUfScLxstMOU6vkh5QpnpKIu
+
+https: https://eth-mainnet.g.alchemy.com/v2/d29w2BF_oUfScLxstMOU6vkh5QpnpKIu
+
+socket: wss://eth-mainnet.g.alchemy.com/v2/d29w2BF_oUfScLxstMOU6vkh5QpnpKIu
+
+// const { Alchemy, Utils } = require('alchemy-sdk');
+// const EthDater = require('ethereum-block-by-date');
+//
+// const apiKey = "d29w2BF_oUfScLxstMOU6vkh5QpnpKIu";
+// const settings = {
+//     apiKey: apiKey
+// };
+//
+// const alchemy = new Alchemy(settings);
+//
+// const dater = new EthDater(
+//     alchemy.core // Ethers provider, required.
+// );
+//
+// const main = async () => {
+//
+//     // Set wallet address
+//     const address = '0x690B9A9E9aa1C9dB991C7721a92d351Db4FaC990';
+//
+//     // Set timestamp
+//     const timestamp = '2023-02-20T13:20:40Z';
+//
+//     // Get blocknumber
+//     let block = await dater.getDate(timestamp);
+//     block = block['block']
+//
+//     // Get balance and format in terms of ETH
+//     let balance = await alchemy.core.getBalance(address, block);
+//     balance = Utils.formatEther(balance);
+//     console.log(`Balance of ${address}: ${balance} ETH`);
+// }
+//
+// const runMain = async () => {
+//     try {
+//         await main();
+//         process.exit(0);
+//     }
+//     catch (error) {
+//         console.log(error);
+//         process.exit(1);
+//     }
+// };
+//
+// runMain();

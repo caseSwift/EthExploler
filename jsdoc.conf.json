@@ -1,0 +1,11 @@
+{
+  "source": {
+    "include": ["server.js", "eth.js", "./front/src/App.js","./front/src/InputFields.js","./front/src/DatePicker.js"],
+    "includePattern": ".+\\.js(doc|x)?$",
+    "excludePattern": "(^|\\/|\\\\)_"
+  },
+  "opts": {
+    "destination": "./docs",
+    "recurse": true
+  }
+}
